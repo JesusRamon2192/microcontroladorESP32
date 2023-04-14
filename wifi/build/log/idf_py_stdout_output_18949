@@ -1,0 +1,22 @@
+[1/16] Linking C static library esp-idf/wifi_provisioning/libwifi_provisioning.a
+[2/16] Performing build step for 'bootloader'
+[1/1] cd /home/jesus/Documentos/personalProjects/microcontroladores/esp32/wifi/build/bootloader/esp-idf/esptool_py && /home/jesus/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/jesus/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/jesus/Documentos/personalProjects/microcontroladores/esp32/wifi/build/bootloader/bootloader.bin
+Bootloader binary size 0x67e0 bytes. 0x820 bytes (7%) free.
+[3/14] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/wifi.c.obj
+[4/14] Building C object esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/protocol_examples_utils.c.obj
+[5/14] Building C object esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/console_cmd.c.obj
+[6/14] Building C object esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/connect.c.obj
+[7/14] Building C object esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/wifi_connect.c.obj
+[8/14] Linking C static library esp-idf/protocol_examples_common/libprotocol_examples_common.a
+[9/14] Linking C static library esp-idf/main/libmain.a
+[10/14] Generating ld/sections.ld
+[11/14] Building C object CMakeFiles/wifi.elf.dir/project_elf_src_esp32.c.obj
+[12/14] Linking CXX executable wifi.elf
+[13/14] Generating binary image from built executable
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /home/jesus/Documentos/personalProjects/microcontroladores/esp32/wifi/build/wifi.bin
+[14/14] cd /home/jesus/Documentos/personalProjects/microcontroladores/esp32/wifi/build/esp-idf/esptool_py && /home/jesus/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/jesus/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/jesus/Documentos/personalProjects/microcontroladores/esp32/wifi/build/partition_table/partition-table.bin /home/jesus/Documentos/personalProjects/microcontroladores/esp32/wifi/build/wifi.bin
+wifi.bin binary size 0xbb780 bytes. Smallest app partition is 0x100000 bytes. 0x44880 bytes (27%) free.
