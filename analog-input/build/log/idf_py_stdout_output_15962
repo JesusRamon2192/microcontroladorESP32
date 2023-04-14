@@ -1,0 +1,28 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/jesus/Documentos/personalProjects/microcontroladores/esp32/analog-input/build/bootloader/esp-idf/esptool_py && /home/jesus/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/jesus/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/jesus/Documentos/personalProjects/microcontroladores/esp32/analog-input/build/bootloader/bootloader.bin
+Bootloader binary size 0x67e0 bytes. 0x820 bytes (7%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/analog-input.c.obj
+In file included from /home/jesus/Documentos/personalProjects/microcontroladores/esp32/analog-input/main/analog-input.c:4:
+/home/jesus/esp/esp-idf/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+/home/jesus/Documentos/personalProjects/microcontroladores/esp32/analog-input/main/analog-input.c: In function 'app_main':
+/home/jesus/Documentos/personalProjects/microcontroladores/esp32/analog-input/main/analog-input.c:12:56: warning: passing argument 3 of 'adc2_get_raw' from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |         adc2_get_raw(ADC2_CHANNEL_4, ADC_WIDTH_BIT_12, &raw_value);
+      |                                                        ^~~~~~~~~~
+      |                                                        |
+      |                                                        int32_t * {aka long int *}
+/home/jesus/esp/esp-idf/components/driver/deprecated/driver/adc.h:261:81: note: expected 'int *' but argument is of type 'int32_t *' {aka 'long int *'}
+  261 | esp_err_t adc2_get_raw(adc2_channel_t channel, adc_bits_width_t width_bit, int *raw_out);
+      |                                                                            ~~~~~^~~~~~~
+[3/7] Linking C static library esp-idf/main/libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable analog-input.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/jesus/Documentos/personalProjects/microcontroladores/esp32/analog-input/build/analog-input.bin
+[7/7] cd /home/jesus/Documentos/personalProjects/microcontroladores/esp32/analog-input/build/esp-idf/esptool_py && /home/jesus/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/jesus/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/jesus/Documentos/personalProjects/microcontroladores/esp32/analog-input/build/partition_table/partition-table.bin /home/jesus/Documentos/personalProjects/microcontroladores/esp32/analog-input/build/analog-input.bin
+analog-input.bin binary size 0x2bc70 bytes. Smallest app partition is 0x100000 bytes. 0xd4390 bytes (83%) free.
