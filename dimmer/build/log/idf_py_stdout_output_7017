@@ -1,0 +1,58 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/jesus/Documentos/personalProjects/microcontroladores/esp32/dimmer/sdkconfig
+-- App "dimmer" version: b7134d5-dirty
+-- Adding linker script /home/jesus/Documentos/personalProjects/microcontroladores/esp32/dimmer/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/jesus/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/jesus/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/jesus/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/jesus/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/jesus/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/jesus/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/jesus/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/jesus/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocol_examples_common protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/jesus/esp/esp-idf/components/app_trace /home/jesus/esp/esp-idf/components/app_update /home/jesus/esp/esp-idf/components/bootloader /home/jesus/esp/esp-idf/components/bootloader_support /home/jesus/esp/esp-idf/components/bt /home/jesus/esp/esp-idf/components/cmock /home/jesus/esp/esp-idf/components/console /home/jesus/esp/esp-idf/components/cxx /home/jesus/esp/esp-idf/components/driver /home/jesus/esp/esp-idf/components/efuse /home/jesus/esp/esp-idf/components/esp-tls /home/jesus/esp/esp-idf/components/esp_adc /home/jesus/esp/esp-idf/components/esp_app_format /home/jesus/esp/esp-idf/components/esp_coex /home/jesus/esp/esp-idf/components/esp_common /home/jesus/esp/esp-idf/components/esp_eth /home/jesus/esp/esp-idf/components/esp_event /home/jesus/esp/esp-idf/components/esp_gdbstub /home/jesus/esp/esp-idf/components/esp_hid /home/jesus/esp/esp-idf/components/esp_http_client /home/jesus/esp/esp-idf/components/esp_http_server /home/jesus/esp/esp-idf/components/esp_https_ota /home/jesus/esp/esp-idf/components/esp_https_server /home/jesus/esp/esp-idf/components/esp_hw_support /home/jesus/esp/esp-idf/components/esp_lcd /home/jesus/esp/esp-idf/components/esp_local_ctrl /home/jesus/esp/esp-idf/components/esp_mm /home/jesus/esp/esp-idf/components/esp_netif /home/jesus/esp/esp-idf/components/esp_netif_stack /home/jesus/esp/esp-idf/components/esp_partition /home/jesus/esp/esp-idf/components/esp_phy /home/jesus/esp/esp-idf/components/esp_pm /home/jesus/esp/esp-idf/components/esp_psram /home/jesus/esp/esp-idf/components/esp_ringbuf /home/jesus/esp/esp-idf/components/esp_rom /home/jesus/esp/esp-idf/components/esp_system /home/jesus/esp/esp-idf/components/esp_timer /home/jesus/esp/esp-idf/components/esp_wifi /home/jesus/esp/esp-idf/components/espcoredump /home/jesus/esp/esp-idf/components/esptool_py /home/jesus/esp/esp-idf/components/fatfs /home/jesus/esp/esp-idf/components/freertos /home/jesus/esp/esp-idf/components/hal /home/jesus/esp/esp-idf/components/heap /home/jesus/esp/esp-idf/components/http_parser /home/jesus/esp/esp-idf/components/idf_test /home/jesus/esp/esp-idf/components/ieee802154 /home/jesus/esp/esp-idf/components/json /home/jesus/esp/esp-idf/components/log /home/jesus/esp/esp-idf/components/lwip /home/jesus/Documentos/personalProjects/microcontroladores/esp32/dimmer/main /home/jesus/esp/esp-idf/components/mbedtls /home/jesus/esp/esp-idf/components/mqtt /home/jesus/esp/esp-idf/components/newlib /home/jesus/esp/esp-idf/components/nvs_flash /home/jesus/esp/esp-idf/components/openthread /home/jesus/esp/esp-idf/components/partition_table /home/jesus/esp/esp-idf/components/perfmon /home/jesus/esp/esp-idf/components/protobuf-c /home/jesus/esp/esp-idf/examples/common_components/protocol_examples_common /home/jesus/esp/esp-idf/components/protocomm /home/jesus/esp/esp-idf/components/pthread /home/jesus/esp/esp-idf/components/sdmmc /home/jesus/esp/esp-idf/components/soc /home/jesus/esp/esp-idf/components/spi_flash /home/jesus/esp/esp-idf/components/spiffs /home/jesus/esp/esp-idf/components/tcp_transport /home/jesus/esp/esp-idf/components/ulp /home/jesus/esp/esp-idf/components/unity /home/jesus/esp/esp-idf/components/usb /home/jesus/esp/esp-idf/components/vfs /home/jesus/esp/esp-idf/components/wear_levelling /home/jesus/esp/esp-idf/components/wifi_provisioning /home/jesus/esp/esp-idf/components/wpa_supplicant /home/jesus/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jesus/Documentos/personalProjects/microcontroladores/esp32/dimmer/build
+[1/15] Building C object esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj
+[2/15] Linking C static library esp-idf/esp_app_format/libesp_app_format.a
+[3/15] Generating ../../index.html.S
+[4/15] Generating ../../chroma.png.S
+[5/15] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/index.html.S.obj
+[6/15] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/chroma.png.S.obj
+[7/15] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/dimmer.c.obj
+[8/15] Linking C static library esp-idf/main/libmain.a
+[9/15] Performing build step for 'bootloader'
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/jesus/Documentos/personalProjects/microcontroladores/esp32/dimmer/sdkconfig
+Compiler supported targets: xtensa-esp32-elf
+
+-- Adding linker script /home/jesus/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- App "bootloader" version: v5.1-dev-4375-g42261df71f
+-- Adding linker script /home/jesus/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/jesus/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/jesus/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/jesus/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/jesus/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld
+-- Adding linker script /home/jesus/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_common esp_hw_support esp_rom esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: /home/jesus/esp/esp-idf/components/bootloader /home/jesus/esp/esp-idf/components/bootloader_support /home/jesus/esp/esp-idf/components/efuse /home/jesus/esp/esp-idf/components/esp_app_format /home/jesus/esp/esp-idf/components/esp_common /home/jesus/esp/esp-idf/components/esp_hw_support /home/jesus/esp/esp-idf/components/esp_rom /home/jesus/esp/esp-idf/components/esp_system /home/jesus/esp/esp-idf/components/esptool_py /home/jesus/esp/esp-idf/components/freertos /home/jesus/esp/esp-idf/components/hal /home/jesus/esp/esp-idf/components/log /home/jesus/esp/esp-idf/components/bootloader/subproject/main /home/jesus/esp/esp-idf/components/bootloader/subproject/components/micro-ecc /home/jesus/esp/esp-idf/components/newlib /home/jesus/esp/esp-idf/components/partition_table /home/jesus/esp/esp-idf/components/soc /home/jesus/esp/esp-idf/components/spi_flash /home/jesus/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jesus/Documentos/personalProjects/microcontroladores/esp32/dimmer/build/bootloader
+[1/1] cd /home/jesus/Documentos/personalProjects/microcontroladores/esp32/dimmer/build/bootloader/esp-idf/esptool_py && /home/jesus/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/jesus/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/jesus/Documentos/personalProjects/microcontroladores/esp32/dimmer/build/bootloader/bootloader.bin
+Bootloader binary size 0x67e0 bytes. 0x820 bytes (7%) free.
+[10/13] Generating ld/sections.ld
+[11/13] Linking CXX executable dimmer.elf
+[12/13] Generating binary image from built executable
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /home/jesus/Documentos/personalProjects/microcontroladores/esp32/dimmer/build/dimmer.bin
+[13/13] cd /home/jesus/Documentos/personalProjects/microcontroladores/esp32/dimmer/build/esp-idf/esptool_py && /home/jesus/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/jesus/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/jesus/Documentos/personalProjects/microcontroladores/esp32/dimmer/build/partition_table/partition-table.bin /home/jesus/Documentos/personalProjects/microcontroladores/esp32/dimmer/build/dimmer.bin
+dimmer.bin binary size 0xf9270 bytes. Smallest app partition is 0x100000 bytes. 0x6d90 bytes (3%) free.
+Warning: The smallest app partition is nearly full (3% free space left)!

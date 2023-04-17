@@ -1,1 +1,6 @@
-e1c2e5933e84e27cbd74b823ebb1a32ace04d4e6
+0000000000000000000000000000000000000000 9505379d6dd3f074be6c8ef313a4b131ca796851 jesus <jesus.ramon2192@gmail.com> 1681316333 -0600	commit (initial): Se realizan practicas de entradas y salidas con el microcontrolador esp32
+9505379d6dd3f074be6c8ef313a4b131ca796851 9505379d6dd3f074be6c8ef313a4b131ca796851 jesus <jesus.ramon2192@gmail.com> 1681329127 -0600	Branch: renamed refs/heads/master to refs/heads/main
+9505379d6dd3f074be6c8ef313a4b131ca796851 9505379d6dd3f074be6c8ef313a4b131ca796851 jesus <jesus.ramon2192@gmail.com> 1681401898 -0600	Branch: renamed refs/heads/main to refs/heads/main
+9505379d6dd3f074be6c8ef313a4b131ca796851 239c8690f814f6d888c28c212d1c7de709056d96 jesus <jesus.ramon2192@gmail.com> 1681486953 -0600	commit: Modulacion de ancho de pulsos PWM
+239c8690f814f6d888c28c212d1c7de709056d96 e1c2e5933e84e27cbd74b823ebb1a32ace04d4e6 jesus <jesus.ramon2192@gmail.com> 1681495944 -0600	commit: Servidor HTTP con ESP32
+e1c2e5933e84e27cbd74b823ebb1a32ace04d4e6 b7134d5f9dc65b0427456334d33cfe1b96333c9e jesus <jesus.ramon2192@gmail.com> 1681601764 -0600	commit: Dimmer: proyecto de led inteligente
